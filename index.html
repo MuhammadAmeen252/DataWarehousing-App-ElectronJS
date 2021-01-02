@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-8" />
+    <title>Data Warehouse - Assignment</title>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="script-src 'self' 'unsafe-inline';"/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body style="background: white">
+    <h1 class="header">DWDM Assignment</h1>
+    <div class="tasks">
+      <p>Roll-up on total sales by year and by quarter</p>
+      
+      <select id="t1">
+        <option value="year">year</option>
+        <option value="quarter">quarter</option>
+      </select>
+      <button id="btn1" class="btn">Apply Query</button>
+
+    </div>
+    <div class="tasks">
+      <p>Roll-up on total sales by country, by state, and by city</p>
+      
+      <select id="t2">
+        <option value="country">country</option>
+        <option value="state">state</option>
+        <option value="city">city</option>
+      </select>
+      <button id="btn2" class="btn">Apply Query</button>
+
+    </div>
+    <div class="tasks">
+      <p>
+        Roll-up on total sales by item brand and by item type (digital or
+        analog)
+      </p>
+
+      <select id="t3">
+        <option value="brand">item brand</option>
+        <option value="type">item type</option>
+      </select>
+      <button id="btn3" class="btn">Apply Query</button>
+
+    </div>
+    <div class="tasks">
+      <p>Drill down on total sales by month and by day</p>
+
+      <select id="t4">
+        <option value="month">month</option>
+        <option value="day">day</option>
+      </select>
+      <button id="btn4" class="btn">Apply Query</button>
+
+    </div>
+    <div class="tasks">
+      <p>Drill down on total sales by item name</p>
+
+      <select id="t5">
+        <option value="name">item name</option>
+      </select>
+      <button id="btn5" class="btn">Apply Query</button>
+
+    </div>
+    <div class="tasks">
+      <p>Drill down on total sales by street address</p>
+
+      <select id="t6">
+        <option value="address">street address</option>
+      </select>
+      <button id="btn6" class="btn">Apply Query</button>
+
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
